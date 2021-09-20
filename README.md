@@ -1,2 +1,2 @@
-# DIO--Anota-es-e-Bootcamp
+# DIO Anotações e Bootcamps
 Repositório para organizar  e disponibilizar anotações sobre as aulas, ou resoluções de desafios dos cursos e bootcamps da DIO
