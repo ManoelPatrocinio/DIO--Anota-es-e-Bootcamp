@@ -7,6 +7,6 @@ Repositório para organizar  e disponibilizar anotações sobre as aulas, ou res
    `mkdir "nome da nova pasta"`
  
 2ºClone o repositório
-   `git clone https://gi  thub.com/ManoelPatrocinio/DIO--review.git`
+   `git clone https://github.com/ManoelPatrocinio/DIO--review.git`
 
 
