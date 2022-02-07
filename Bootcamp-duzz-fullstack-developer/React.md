@@ -122,22 +122,22 @@ Contexto (context) fornece a forma de compartilhar dados  entre todos componente
 É indicado para compartilhar dados que podem ser considerados “globais” para a árvore de componentes do React.
 
 ### React fragment
-Usado para evitar a criação de nós desnecessário e assim prejudicar a sintexe do html.
-ex:
-    <React.Fagment>
-        <div>
-        </div        
-        <ul>
-             <li></li>     
-             <li></li>     
-        </ul>
-    </React.Fagment>
+Usado para evitar a criação de nós desnecessário e assim prejudicar a sintexe do html, ex:
+`
+<React.Fagment>
+<div>
+</div        
+</React.Fagment>
 OU 
-        <>
-           <div>
-           </div        
-           <ul>
-             <li></li>     
-             <li></li>     
-           </ul>
-        </>
+<>
+<div>
+</div        
+</>
+`
+## Dumb Components
+####Características:
+- Não estão diretamente ligados aos requisitos funcionais da sua aplicação;
+- Definem a aparência da aplicação e a interface de usuário (UI);
+- Não são conectados a store do Redux (não recebem o state e nem disparam actions);
+- Recebem dados e callbacks via props;
+- Geralmente são stateless function components, mas não necessariamente;
